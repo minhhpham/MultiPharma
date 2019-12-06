@@ -1,4 +1,5 @@
 library(PhViD)
+library(dplyr)
 source("modifiedGPS.R")
 MCEM = function(ADR, Drug, RankStat = "Q_0.05(lambda)", MaxIter = 100)
 {
